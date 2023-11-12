@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6: Media Queries</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+        /* PHONE */
+        @media (max-width: 767px) {
+
+            #thediv
+            {
+                background-color: red;
+            }
+        }
+
+        /* TABLET */
+        @media (min-width: 768px) and (max-width: 991px) 
+        {
+            
+            #thediv
+            {
+                background-color: blue;
+            }
+        }
+
+        /* Laptop */
+        @media (min-width: 992px)  
+        {
+            
+            #thediv
+            {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="thediv" style="height: 150px;">HELLO WORLD</div>
+</body>
+</html>

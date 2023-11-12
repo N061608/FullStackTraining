@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form{
+            background-color: rgba(255, 251, 0, 0.151);
+            height: 300px;
+            width: 500px;
+            max-width: 500px;
+            margin: auto;
+            margin-top: 10%;
+            padding: 2%;
+            align-self: flex-start;
+        }
+
+        #mybutton
+        {
+            background-color: orange;
+            border: 2px solid black;
+            cursor: pointer;
+            padding: 3px;
+        }
+
+        #mybutton:hover
+        {
+            background-color: black;
+            color: white;
+            border: 2px solid orange;
+        }
+
+        input
+        {
+            width: 250px;
+        }
+
+    </style>
+</head>
+<body style="background-color: rgba(255, 251, 0, 0.226);">
+    <form>
+        
+        <div style="float: right;">
+            <img src="https://th.bing.com/th/id/OIP.mmqGuCtPcQDj1lnnXNYPJAHaHL?pid=ImgDet&rs=1" style="height: 200px; width: 150px; margin: 40px;">
+        </div>
+
+        <div style="padding: 40px 0;">
+            <div><b> Log-In </b></div>
+            <div style="padding: 20px 0;">
+                <label>Username</label><br>
+                <input type="text" required><br>
+                <label>Password</label><br>
+                <input type="password">
+            </div>
+
+        </div>     
+
+        <button id="mybutton" type="button">Log-in</button>
+    </form>
+</body>
+</html>

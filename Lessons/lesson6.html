@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 6 Forms and User Input</title>
+  </head>
+  <body>
+    <form>
+    <table>
+      <label>Fullname</label>
+      <input type="text" readonly />
+      <!-- readonly to readonly the element -->
+      <input type="text" value="NHOMER" /> <br />
+      <!-- VALUE for intial/default value -->
+
+      <label>Age</label>
+      <input type="number" min="10" max="20" /> <br />
+
+      <label>Password</label>
+      <input type="password" disabled /> <br />
+      <!-- disabled to disabled the element -->
+      <input type="password" required /> <br />
+      <!-- required to make the element mandatory -->
+
+      <label>Purpose</label> <br />
+      <input type="checkbox" name="purpose" required /> <br />
+      <input type="checkbox" name="purpose" /> <br />
+
+      <label>Gender</label> <br />
+      <input type="radio" name="gender" required /> <br />
+      <input type="radio" name="gender" required /> <br />
+
+      <label>Country</label>
+      <!-- <select hidden>     hidden to hide the element -->
+      <select>
+        <option>Philippines</option>
+        <option>Vietnam</option>
+        <option selected>
+          <!-- selected for default selected value-->
+          Malaysia
+        </option>
+        <option>Indonesia</option>
+        <option>Laos</option>
+      </select>
+      <br />
+
+      <label>Justification</label> <br />
+      <textarea cols="40" rows="10"></textarea> <br />
+    </table>
+      <br />
+      <button type="submit">SUBMIT</button>
+    
+  </form>
+  </body>
+</html>
