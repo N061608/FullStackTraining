@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4 Bootstrap</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+    />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+
+</head>
+<body>
+    <div class="bg-primary">
+        SAMPLE TEXT
+    </div>
+
+    <div class="bg-danger">
+        SAMPLE TEXT
+    </div>
+
+    <div class="bg-warning">
+        SAMPLE TEXT
+    </div>
+
+    <div class="bg-info">
+        SAMPLE TEXT
+    </div>
+
+    <div class="bg-success">
+        SAMPLE TEXT
+    </div>
+
+    <div class="bg-dark text-light">
+        SAMPLE TEXT
+    </div>
+
+    <div style="background-color: aquamarine;">
+        SAMPLE TEXT
+    </div>
+
+    <br>
+    <!-- BOARDER -->
+    <div class="border">
+        SAMPLE TEXT
+    </div>
+
+    <br>
+    <!-- SHADOW -->
+    <div class="border shadow">
+        SAMPLE TEXT
+    </div>
+
+    <br>
+   <!-- DISPLAY (FLEX) -->
+    <div>
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+    <div class="d-flex">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+    <div class="d-flex">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+    <div class="d-flex flex-row-reverse">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+
+
+    <br>
+    <!-- DISPLAY (FLEX Alignment) -->
+    <div class="d-flex">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+    <div class="d-flex justify-content-between">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+    <div class="d-flex justify-content-around">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+    <div class="d-flex justify-content-evenly">
+        <div>Number 1</div>
+        <div>Number 2</div>
+        <div>Number 3</div>
+    </div>
+
+
+    <br>
+    <!-- DISPLAY (Align Items) center | end | stretch | baseline | -->
+    <div class="d-flex align-items-center" style="height:350px;background-color: red;">
+        <div class="border" style="padding:10px;">Flex item 1</div>
+        <div class="border" style="padding:10px;">Flex item 2</div>
+        <div class="border" style="padding:10px;">Flex item 3</div>
+    </div>
+
+
+    <br>
+    <!-- DISPLAY (Align Content) center | end | between |  -->
+
+
+   
+    <br>
+    <!-- FLOAT  (start | end)-->
+    <img src="../../images/dog.jpg" style="height:250px;" class="float-start">
+
+    <div class="">
+        Lorem IPsumLorem IPsumLorem IPsumLorem IPsumLorem IPsum
+        Lorem IPsumLorem IPsumLorem IPsumLorem IPsum
+    </div>
+   
+    <br>
+    <!-- CLEAR  (start | end)-->
+    <img src="../../images/dog.jpg" style="height:250px;" class="float-end">
+
+    <div style="clear:right;">
+        Lorem IPsumLorem IPsumLorem IPsumLorem IPsumLorem IPsum
+        Lorem IPsumLorem IPsumLorem IPsumLorem IPsum
+    </div>
+
+    <br>
+    <!--  OVERFLOW (hidden/auto) -->
+    <div class="bg-primary overflow-auto" style="width:200px;height:50px;">
+        LOREM IPSUM
+        LOREM IPSUM LOREM IPSUMLOREM IPSUM IPSUMLOREM IPSUM
+    </div>
+
+    <br>
+    <!--  POSITION (static | relative | absolute | fixed) -->
+    <div class="position-relative bg-primary" style="height:150px;width:150px;left:180px;">position</div>
+    <div class=" bg-danger" style="height:150px;width:150px;">position</div>
+
+    <br>
+    <!-- MARGIN AND PADDING (1-5 only) -->
+    <div class="m-5 p-5 bg-danger" style="height:150px;width:150px;">Margin 5; padding 5</div>
+    <div class="m-4 p-4 bg-danger" style="height:150px;width:150px;">Margin 4; padding 4</div>
+
+    <br>
+    <!-- SIZING (div 25 (25% | 50% | 75% | 100% | auto) only) -->
+    <div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
+    <div class="w-50 p-3" style="background-color: #eee;">Width 50%</div>
+    <div class="w-75 p-3" style="background-color: #eee;">Width 75%</div>
+    <div class="w-100 p-3" style="background-color: #eee;">Width 100%</div>
+    <div class="w-auto p-3" style="background-color: #eee;">Width auto</div>
+
+
+    <br>
+    <!-- TEXT WRAPPING-->
+    <div class="text-wrap" style="width: 10px;">
+        This text should overflow the parent.
+    </div>
+
+
+    <br>
+    <!-- TEXT BREAK-->
+    <p class="text-break">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+
+    <br>
+    <!-- TEXT ALIGNMENT (start | center | end)--> 
+    <div class="text-start">THIS IS THE TEXT</div>
+    <div class="text-center">THIS IS THE TEXT</div>
+    <div class="text-end">THIS IS THE TEXT</div>
+
+    <br>
+    <!-- Text Transform (lowercase | uppercase | capitalize) -->
+    LOWERCASE becomes <span class="text-lowercase"> LOWERCASE </span> <br>
+    uppercase becomes <span class="text-uppercase"> uppercase </span> <br>
+    nhomer paguirigan becomes <span class="text-capitalize"> nhomer paguirigan </span> <br>
+
+    <br>
+    <!-- Text Transform (bold | light | italic) -->
+    <div class="fw-bold">Bold text.</div>
+    <div class="fw-light">Light weight text.</div>
+    <div class="fst-italic">Italic text.</div>
+
+
+    <br>
+    <!-- DISPLAY PROPERTY (inline | inblock) -->
+    <div> TEST <span>ANOTHER WORD</span></div>
+    <div> TEST <span class="d-block">ANOTHER WORD</span></div>
+    <div> TEST <div class="d-inline">ANOTHER WORD</div></div>
+
+    <div>Test <span class="bg-primary d-inline-block" style="height:100px;">Test </span> </div>
+
+    <br>
+    <!-- html hidden | css: ???-->
+    <div class="d-none">HELLO WORLD</div>
+
+
+    <br>
+    <!-- VERTICAL ALIGN -->
+    <span class="align-baseline"> baseline </span>
+    <span class="align-top"> top </span>
+    <span class="align-middle"> middle </span>
+    <span class="align-bottom"> bottom </span>
+    <span class="align-text-top"> text-top </span>
+    <span class="align-text-bottom"> text-bottom </span>
+    
+
+    <br>
+
+
+
+</body>
+</html>

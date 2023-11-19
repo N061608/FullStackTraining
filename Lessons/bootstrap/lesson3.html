@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 3 Bootstrap</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- TEXT BOX -->
+    <div class="row">
+      <div class="col-md-3">
+        <label>First Name</label>
+        <input class="form-control" type="text" id="firstname" />
+      </div>
+
+      <div class="col-md-3">
+        <label>Middle Name</label>
+        <input class="form-control" type="text" id="middlename" />
+      </div>
+
+      <div class="col-md-3">
+        <label>Last Name</label>
+        <input class="form-control" type="text" id="lastname" />
+      </div>
+
+      <!-- CHECK BOX -->
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="flexCheckDefault"
+        />
+
+        <label class="form-check-label" for="flexCheckDefault">
+          Default checkbox
+        </label>
+      </div>
+
+      <!-- RADIO BUTTON (should be same NAME)-->
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault1"
+        />
+        <label class="form-check-label" for="flexRadioDefault1"> Male </label>
+      </div>
+
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="flexRadioDefault"
+          id="flexRadioDefault2"
+          checked
+        />
+        <label class="form-check-label" for="flexRadioDefault2"> Female </label>
+      </div>
+
+      <!-- RANGE -->
+
+      <div class="form-check">
+        <label for="customRange1" class="form-label">Example range</label>
+        <input type="range" class="form-range" id="customRange1" />
+      </div>
+
+      <!-- INPUT GROUP -->
+      <div class="input-group">
+        <span class="input-group-text" id="basic-addon1">Firstname</span>
+        <input type="text" class="form-control" placeholder="Username" />
+      </div>
+      <!-- Note: Placeholder same as hint -->
+
+      <!-- SELECT/DROP DOWN (form-control vs form-select)-->
+        <select class="form-select">
+            <option>PLEASE SELECT ONE</option>
+            <option>PHILIPPINES</option>
+            <option>VIETNAME</option>
+            <option>VENEZUELA</option>
+            <option>UNITED STATES</option>
+        </select>
+        <br>
+     <!-- FLOATING LABEL -->
+        <div class="form-floating">
+            <input type="text" class="form-control" placeholder="" id="firstname">
+            <label for="firstname">FIRST NAME</label>
+        </div>
+      <!-- Note: Placeholder is required -->
+
+
+     <!-- COLOR -->
+     <input type="color" class="form-control">
+
+
+
+    </div>
+  </body>
+</html>
