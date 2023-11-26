@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT LESSON 3</title>
+</head>
+<body>
+    
+<br><br>
+<script type="application/javascript">
+    let fno = 22;
+    let sno = 10;
+
+    let compute = fno / sno;
+    let remainderonly = fno % sno;
+
+    // % modulus = to get the remiander
+
+    document.write(compute); 
+    
+    document.write(remainderonly);
+
+</script>
+
+<br><br>
+<!-- MDAS RULE -->
+ <script type="application/javascript">
+    let firstnumber = 22; 
+    let secondnumber = 10; 
+
+   
+    let mdasapplication = (firstnumber + firstnumber) * (secondnumber + secondnumber);
+
+    document.write(mdasapplication);
+
+ </script>
+
+
+<br><br>
+<!-- Comparison Operators : (>,<,<=,>=, != , ==, ===) -->
+<script type="application/javascript">
+    let x = 10; 
+    let y = 20;
+
+    let c = x > y;
+    document.write(c);
+</script>
+
+
+<br><br>
+<script type="application/javascript">
+    let a = '20'; 
+    let b = 20;
+
+    let d = a == b;
+    document.write(d);
+    
+</script>
+
+
+<br><br>
+<script type="application/javascript">
+    let aaa = '20'; 
+    let bbb = 20;
+
+    let ddd = aaa === bbb;      /* === means should the same data type */
+    document.write(ddd);
+    
+</script>
+
+<br><br>
+<script type="application/javascript">
+    let aa = 20; 
+    let bb= 20;
+
+    let dd = aa === bb;
+    document.write(dd);
+    
+</script>
+
+
+<br><br>
+<!-- Logical Operators (&&, ||, !) And, or, not -->
+<script type="application/javascript">
+    let xa = (10 < 11) && (10<10);
+    document.write (xa);
+
+
+    let xb = (10 < 11) || (10<10);
+    document.write (xb);
+</script>
+
+
+<br><br>
+<!-- Concat -->
+<script type="application/javascript">
+    const firstname = 'nhomer';
+     const lastname = 'paguirigan';
+
+     const thefullname = firstname +' '+ lastname + '<br>';
+
+     document.write(thefullname);
+
+    const fullnameotherstyle = firstname.concat(" ",lastname, '<br>');
+     
+    document.write(fullnameotherstyle);
+
+    const templateliteral = 
+        `<div style="margin-top:20px;"> MY FIRSTNAME: ${firstname}</div> 
+         <div>MY LASTNAME: ${lastname}</div>   
+        `;
+
+    document.write(templateliteral);
+</script>
+
+
+<br><br>
+<!-- Slice -->
+<script type="application/javascript">
+    const theword = 'I am a web developer';
+    const theresult = theword.slice(3,15);
+
+    document.write(theresult);
+
+</script>
+
+
+<br><br>
+<!-- Split -->
+<script type="application/javascript">
+    const theword2 = 'I am a web developer';
+    const theresult2 = theword2.split(' ',3);
+
+    document.write(theresult2);
+
+
+</script>
+
+
+<br><br>
+<!-- Split -->
+<script type="application/javascript">
+    const theword3 = 'I am a web developer';
+    const theresult3 = theword3.split(' '); 
+    document.write(theresult3.join("-"));
+
+</script>
+
+<br><br>
+<!-- Substring -->
+<script type="application/javascript">
+    const theword4 = 'I am a web developer';
+    const theresult4 = theword4.substring(0,11);
+    document.write(theresult4);
+</script>
+
+
+<br><br>
+<!-- capitalization -->
+<script type="application/javascript">
+    const dword = 'the test is small'
+    const upperdword = dword.toLocaleUpperCase();
+    document.write(upperdword)
+
+    const dword2 = 'the test is BIG'
+    const lowerdword = dword.toLocaleLowerCase();
+    document.write(lowerdword)
+
+</script>
+
+
+
+<br><br>
+<!-- Post Increment -->
+<script type="application/javascript">
+    let thenumber = 10;
+    let postincrement = thenumber++;
+    document.write(postincrement);
+
+    postincrement = thenumber--;
+    document.write(postincrement);
+
+</script>
+
+<br>
+<!-- Pre Increment -->
+<script type="application/javascript">
+    let thenumber2 = 10;
+    let preincrement = ++thenumber2;
+    document.write(preincrement);
+    
+    preincrement = --thenumber2;
+    document.write(preincrement);
+    
+    
+</script>
+
+
+<br><br>
+<script type="application/javascript">
+    let myword = 'my name is juan dela cruz';
+
+    let the1result = myword.slice(0,11);
+    let the2result = myword.slice(11,25);
+
+let modifiedWord = the2result.replace(/(?:^|\s)\S/g, function (char) {
+    return char.toUpperCase();
+});
+
+document.write(the1result + modifiedWord);
+
+</script>
+
+</body>
+</html>

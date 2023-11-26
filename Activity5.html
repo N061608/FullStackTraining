@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT ACTIVITY 1</title>
+</head>
+<body>
+
+    <script type="application/javascript">
+        let myword = 'my name is juan dela cruz';
+    
+        let the1result = myword.slice(0,11);
+        let the2result = myword.slice(11,25);
+    
+    let CapitalizeWord = the2result.replace(/(?:^|\s)\S/g, function (char) {
+        return char.toUpperCase();
+    });
+    
+    document.write(the1result + CapitalizeWord);
+    
+    </script>
+    
+
+</body>
+</html>

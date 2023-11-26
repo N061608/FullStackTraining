@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT LESSON 2</title>
+</head>
+<body>
+    
+    <p> Name :
+        <script type="application/javascript">
+            
+            let firstname = "NHOMER";
+
+            firstname = "NHOMER 2";
+            document.write(firstname)
+
+
+
+        </script>
+    </p>
+
+    <p> Grade : 
+        <script>
+
+            let grade = 80.01
+            document.write(grade)
+
+        </script>
+    </p>
+
+
+ <!-- comvert variables -->
+<script>
+    let firstno = '20';
+    let secondno = '10';
+
+    document.write (firstno + secondno);
+
+</script>
+    <!-- string to number -->
+<script>
+    letconvertfirstno = parseFloat(firstno);
+    letconvertsecondno = parseFloat(secondno);
+    let compute = letconvertfirstno + letconvertsecondno
+    
+    document.write (letconvertfirstno + letconvertsecondno);
+</script>
+
+    <!-- number to String -->
+<script>
+    let convert = String(letconvertfirstno) + String(letconvertsecondno);
+    document.write (convert);
+</script>
+
+
+<br><br>
+ <!-- array | object | array vs object -->
+
+ <!-- Array -->
+ <script>
+    let fruits = ['apple','mango','buko','starfruit','atis','watermelon'];
+
+    document.write(fruits[0]+'<br>');
+    document.write(fruits[4]);
+</script>
+
+
+<br><br>
+<!-- Object -->
+<script>
+    let car =
+    {
+        Name: "Tamarraw FX",
+        brand: "Toyota", 
+        price: 200000,
+        color: "white",
+
+    }
+    document.write(car.Name); 
+    document.write(car.brand);
+    
+</script>
+
+<!-- Array inside Array -->
+<br><br>
+<script>
+    let foodcollection = [['chicken','cow','pig'],['cabbage','kangkong','kalabasa'],['tilapia','bangus','galunggong']];
+
+    document.write(foodcollection[1][2]);
+</script>
+
+
+<script>
+    // Oject with array
+    let person =
+    {
+        name: "Allen",
+        addres: "Manila",
+        salary: 2000, 
+        countries_visited: ['Philippines','HongKong','Japan','Thailand','Indonesia']
+    };
+
+
+    document.write(person.countries_visited[2]);
+
+
+    // Array with object
+    let thefruits = [
+        apple = {
+            name: "Apple",
+            color: "red",
+            price: 50
+        },
+
+        mango = {
+            name: "Mango",
+            color: "yellow",
+            price: 30
+        }
+
+    ];
+
+    document.write(thefruits[1].price);
+</script>
+
+
+
+
+
+
+</body>
+</html>
